@@ -11,12 +11,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 ![](assets/design/desktop-preview.jpg)
-![](assets/design/desktop-preview.jpg)
+![](assets/design/mobile-preview-ss.jpg)
 
 ### Links
 
--   Solution URL: [Solution URL here](https://qr-codecomponent.netlify.app/)
--   Live Site URL: [Live site URL here](https://github.com/iprinceroyy/qr-code-component)
+-   Solution URL: [Solution URL here](https://github.com/iprinceroyy/qr-code-component)
+-   Live Site URL: [Live site URL here](https://qr-codecomponent.netlify.app/)
 
 ### Built with
 
