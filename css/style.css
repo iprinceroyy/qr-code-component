@@ -31,7 +31,6 @@ body {
 /* card */
 
 .qr-card {
-    border: 1px solid;
     border-radius: 20px;
     background: hsl(0, 0%, 100%);
     margin: 10% 3%;
@@ -60,14 +59,15 @@ body {
 }
 
 .qr-description>p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: grey;
-    margin: 3% 0.5%;
+    margin: 6% 3%;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin: 10% 0;
 }
 
 .attribution a {
