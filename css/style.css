@@ -8,10 +8,13 @@
 body {
     width: 350px;
     min-height: 100vh;
-    background: hsl(220, 15%, 55%);
+    background: hsl(212, 45%, 89%);
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
 }
+
+
+/* parent element of card*/
 
 .container {
     position: relative;
@@ -24,16 +27,42 @@ body {
     margin: 16% 7%;
 }
 
+
+/* card */
+
 .qr-card {
     border: 1px solid;
     border-radius: 20px;
     background: hsl(0, 0%, 100%);
     margin: 10% 3%;
+    padding: 5%;
 }
 
-.qr-image img {
+
+/* qr image */
+
+.qr-image>img {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 12px;
+}
+
+
+/* description */
+
+.qr-description {
+    margin: 6% 0.5%;
+}
+
+.qr-description>h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0 2.5%;
+}
+
+.qr-description>p {
+    font-size: 1rem;
+    color: grey;
+    margin: 3% 0.5%;
 }
 
 .attribution {
