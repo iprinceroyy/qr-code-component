@@ -6,8 +6,6 @@
 }
 
 body {
-    width: 350px;
-    min-height: 100vh;
     background: hsl(212, 45%, 89%);
     font-size: 16px;
     font-family: 'Outfit', sans-serif;
@@ -17,25 +15,25 @@ body {
 /* parent element of card*/
 
 .container {
-    position: relative;
+    height: 110vh;
+    width: 110vw;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin: 16% 7%;
 }
 
 
 /* card */
 
 .qr-card {
+    width: 18rem;
     border-radius: 20px;
     background: hsl(0, 0%, 100%);
     box-shadow: 1px 5px 10px rgba(141, 139, 139, 0.3), -1px 0 10px rgba(141, 139, 139, 0.1);
-    margin: 10% 3%;
-    padding: 5%;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
 }
 
 
@@ -68,7 +66,7 @@ body {
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin: 10% 0;
+    margin: 5% 0;
 }
 
 .attribution a {
