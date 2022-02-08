@@ -16,7 +16,7 @@ body {
 
 .container {
     height: 110vh;
-    width: 110vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -32,7 +32,7 @@ body {
     border-radius: 20px;
     background: hsl(0, 0%, 100%);
     box-shadow: 1px 5px 10px rgba(141, 139, 139, 0.3), -1px 0 10px rgba(141, 139, 139, 0.1);
-    margin: 1rem 0.5rem;
+    margin: 1rem;
     padding: 1rem;
 }
 
@@ -48,25 +48,25 @@ body {
 /* description */
 
 .qr-description {
-    margin: 6% 0.5%;
+    margin: 1rem 0.25rem;
 }
 
 .qr-description>h1 {
     font-size: 1.3rem;
     font-weight: 700;
-    margin: 0 2.5%;
+    margin: 0 0.35rem;
 }
 
 .qr-description>p {
     font-size: 0.9rem;
     color: grey;
-    margin: 6% 3% 8%;
+    margin: 1.2rem 0.5rem 1rem;
 }
 
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin: 5% 0;
+    margin: 5rem 0;
 }
 
 .attribution a {
